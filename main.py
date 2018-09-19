@@ -5,7 +5,7 @@ sg.Popup('Welcome to my CALCULATOR')
 
 equasion = ''   
 while True:
-    button, values = form.Read()  
+    button, values = form.Read()  # read input
     if button is None:  
         break
     if button is 'Clear':  
