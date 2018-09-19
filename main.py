@@ -1,7 +1,5 @@
 import PySimpleGUI as sg
 from buttons import *    
-sg.Popup('Welcome to my CALCULATOR')
-
 
 equasion = ''   
 while True:
